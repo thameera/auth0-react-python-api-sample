@@ -1,0 +1,6 @@
+.env
+auth0-variables.js
+node_modules/
+
+*.vim
+*.log
