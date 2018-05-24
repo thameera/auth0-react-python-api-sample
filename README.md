@@ -46,6 +46,11 @@ API_ID=http://my/api
 * Run `pip install -r requirements.txt`
 * Run `python server.py`
 
+
+### Using Python 3?
+
+You might need to change `urllib.urlopen` to `urllib.request.urlopen` in server.py. (Hat-tip to [rajrsingh](https://github.com/rajrsingh))
+
 ## Using the app
 
 * Load the SPA in browser by navigating to `http://localhost:3000`
